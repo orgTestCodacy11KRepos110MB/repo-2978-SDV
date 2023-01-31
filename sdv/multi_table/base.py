@@ -85,7 +85,7 @@ class BaseMultiTableSynthesizer:
         """
         return self._table_synthesizers.get(table_name).get_parameters()
 
-    def update_table_parameters(self, table_name, table_parameters):
+    def set_table_parameters(self, table_name, table_parameters):
         """Update the table's synthesizer instantiation parameters.
 
         Args:
